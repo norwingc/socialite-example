@@ -40,4 +40,27 @@ return [
         ],
     ],
 
+    'twitter' => [
+        'client_id'     => env('TWITTER_ID'),
+        'client_secret' => env('TWITTER_SECRET'),
+        'redirect'      => env('TWITTER_URL'),
+    ],
+
+    'github' => [
+        'client_id'     => env('GITHUB_ID'),
+        'client_secret' => env('GITHUB_SECRET'),
+        'redirect'      => env('GITHUB_URL'),
+    ],
+
+    'facebook' => [
+        'client_id'     => env('facebook_ID'),
+        'client_secret' => env('facebook_SECRET'),
+        'redirect'      => env('facebook_URL'),
+    ],
+
+    'google' => [
+        'client_id'     => env('google_ID'),
+        'client_secret' => env('google_SECRET'),
+        'redirect'      => env('google_URL'),
+    ]
 ];
